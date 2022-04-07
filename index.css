@@ -1,0 +1,327 @@
+body{
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+#header{
+  height:60px;
+  background-color:#2b190c;
+}
+#header a{
+color:rgb(206, 202, 202);
+  font-size: 16px;
+}
+#logo a{
+  color:rgba(255, 136, 0, 0.904);
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 1%;
+}
+.logo {
+  text-align: center;
+  font-size: 68px;
+  color: rgba(255, 136, 0, 0.979);
+  background: white;
+  width: 105px;
+  height: 113px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  margin-left: 43%;
+  font-family: Poppins;
+  font-weight: bold;
+  animation:rotate 6s infinite;
+}
+@keyframes rotate{
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+
+.headings {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  margin: auto;
+  font-size: 36px;
+  top: -240px;
+}
+
+.locationSelector {
+  position: relative;
+  top: -238px;
+  margin-left: 27.5%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.locationDropdown {
+  height: 40px;
+  width: 245px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 21px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 310px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  padding-left: 30px;
+}
+
+.quicksearch {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: -35px;
+}
+
+.quicksearchHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.quicksearchSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.tileContainer {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px gray;
+  float: left;
+}
+.tileContainer:hover{
+  transform:scale( 1.1)
+}
+.tileComponent1 {
+  width: 45%;
+  float: left;
+}
+
+.tileComponent2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.componentHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.componentSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+}
+
+.qs-block {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.marg-bot {
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 88px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+/*footer CSS*/
+#footer{
+  height:120px;
+  width:100%;
+  margin-top: 35%;
+  background-color:rgba(248, 248, 248, 0.322)
+}
+
+#footText{
+  text-align: center;
+}
+
+.footDiv{
+  height:70px;
+  width: 58%;
+  float: left;
+  border-right: 2px solid rgba(0, 0, 0, 0.26);
+  text-align: center;
+}
+.social{
+  float:left;
+  margin-left:10%;
+}
+
+.slogo{
+  height:50px;
+  width:50px;
+}
+a{
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .restaurantsinput {
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+  }
+  .logo {
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    background: white;
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 38%;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 23.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  #footer{
+    margin-top: 220%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1150px) {
+  .locationDropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  #footer{
+    margin-top:200%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1205px){
+ #footer{
+  margin-top: 100%;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1152px){
+  #footer{
+    margin-top: 105%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1126px){
+  #footer{
+    margin-top: 110%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1059px){
+  #footer{
+    margin-top: 110%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+    #footer{
+      margin-top: 120%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 970px){
+  #footer{
+    margin-top: 125%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 925px){
+    #footer{
+      margin-top: 130%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 865px){
+    #footer{
+      margin-top: 140%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px){
+  #footer{
+    margin-top: 150%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 785px){
+  #footer{
+    margin-top: 155%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 730px){
+  #footer{
+    margin-top: 170%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 660px){
+  #footer{
+    margin-top: 185%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 620px){
+  #footer{
+    margin-top: 200%;
+  }
+}

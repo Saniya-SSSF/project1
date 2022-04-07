@@ -1,0 +1,225 @@
+body, html{
+    margin: auto;
+    font-weight: 300;
+    font-family: Okra,Helvetica,sans-serif;
+}
+/* header */
+#header{
+    height:7.2rcm;
+    width:100%;
+    display:block;
+    position:static;
+    top:0px;
+    background-color: white;
+}
+#icon h1{
+    float:left;
+    margin-left:3.2cm;
+    font-weight: bold;
+    display:block;
+    color:rgba(255, 136, 0, 0.904);
+    font-size: 40px;
+    margin-top: 1%;
+}
+.dropdown select{
+    display:inline-block;
+    margin-left: 1cm;
+    margin-top: 0.2cm;
+    width: 18%;
+    height: 55px;
+    background:rgb(255, 255, 255);
+    box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    border:1px solid rgb(232, 232, 232);
+}
+.searchbar input{
+    display:inline-block;
+    margin-top: 0.2cm;
+    width: 33%;
+    height: 52px;
+    background:rgb(255, 255, 255);
+    box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    border:1px solid rgb(232, 232, 232);
+}
+#signup{
+    display:inline-block;
+    margin-top: 0.2cm;
+    margin-left: 2.2cm;
+    font-size: 0.5cm;
+    color:rgba(0, 0, 0, 0.459)
+}
+#login{
+    display:inline-block;
+    margin-top: 0.2cm;
+    margin-left: 0.8cm;
+    font-size: 0.5cm;
+    color:rgba(0, 0, 0, 0.459)
+}
+/* title */
+#title h1{
+    color: rgb(28, 28, 28);
+    margin-top: 2cm;
+    margin-left: 3.2cm;
+    line-height: 1.2;
+    font-weight: 500;
+}
+/* filterblock */
+#filterblock{
+    float:left;
+    height: 665px;
+    width:260px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: 3.2cm;
+    margin-top: 1cm;
+}
+#filter span{
+    width: 55px;
+    height: 25px;
+    text-align: left;
+    margin-left: 5%;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+#cuisine{
+    margin-left: 5%;
+}
+#cuisine input{
+    margin-bottom: 5%;
+}
+#cuisine span{
+    width: 55px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+#cost{
+    margin-left: 5%;
+}
+#cost input{
+    margin-bottom: 5%;
+}
+#cost span{
+    width: 89px;
+    height: 20px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    
+    opacity: 1;
+}
+#sort{
+    margin-left:5%;
+}
+#sort input{
+    margin-bottom: 5%;
+}
+#sort span{
+    width: 37px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+/* results */
+#results{
+    margin-top: 1.5cm;
+}
+#result1{
+    display:inline-block;
+    width: 794px;
+    height: 310px;
+    margin-left:3%;
+    margin-bottom: 2%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 5%;
+}
+#result1:hover{
+    transform:scale( 1.1)
+}
+#result1 img{
+    float:left;
+    width: 330px;
+    height: 230px;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+#result1 span{
+    display:inline-block;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size:larger;
+}#result1 p{
+    display:inline-block;
+    margin-left: 8%;
+}
+#result2{
+    display:inline-block;
+    width: 794px;
+    height: 310px;
+    margin-left:3%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 5%;
+}
+#result2:hover{
+    width: 850px;
+    height: 350px;
+}
+#result2 img{
+    float:left;
+    width:330px;
+    height:230px;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+#result2 span{
+    display:inline-block;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-weight: bold;
+    font-size:larger;
+}
+#result2 p{
+    display:inline-block;
+    margin-left: 8%;
+}
+/*footer CSS*/
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:rgb(248 248 248)
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width: 58%;
+    float: left;
+    border-right: 2px solid rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+.social{
+    float:left;
+    margin-left:10%;
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+a{
+    text-decoration: none;
+}

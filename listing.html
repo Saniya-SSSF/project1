@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Page</title>
+        <link rel="icon" type="image/jpg" href="images/foodieicon.jpg"/>
+        <link rel="stylesheet" href="listing.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <div id="header">
+            <span id="icon">
+                <h1>FOodiE</h1>
+            </span>
+             <span class="dropdown">
+                    <select>
+                        <option value="0" selected disabled>Select your location</option>
+                        <option value="1">Warangal, Telangana</option>
+                    </select>
+                </span>
+                <span class="searchbar">
+                    <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                </span>
+               <div  id="signup"><span class="glyphicon glyphicon-user"></span> Sign Up</div>
+                <div id="login"><span class="glyphicon glyphicon-log-in"></span> Login  </div>
+            </div>
+            <!--title-->
+            <div id="title">
+                <h1>Order food online in LB Nagar</h1>
+            </div>
+            <!--filterblock-->
+            <div id="filterblock">
+                <br>
+                <div id="filter">
+                <span>Filter</span>
+                </div>
+                <br>
+                <div id="cuisine">
+                <span>Cuisine</span>
+                <br><br>
+                <input type="checkbox"/>North Indian<br>
+                <input type="checkbox"/>South Indian<br>
+                <input type="checkbox"/>Chinese<br>
+                <input type="checkbox"/>Italian<br>
+                <input type="checkbox"/>Mexican<br>
+                <input type="checkbox"/>Continental<br>
+                <input type="checkbox"/>Sea Food<br>
+            </div>
+                <br>
+                <div id="cost">
+                <span>Cost For Two</span>
+                <br><br>
+                <input type="radio"/>Less than 500<br>
+                <input type="radio"/>500 to 1000<br>
+                <input type="radio"/>1000 to 1500<br>
+                <input type="radio"/>1500 to 2000<br>
+                <input type="radio"/>2000+
+            </div>
+            <br>
+            <div id="sort">
+                <span>Sort</span>
+                <br><br>
+                <input type="radio"/>Price low to high<br>
+                <input type="radio"/>Price high to low<br>
+            </div>
+            </div>
+            <!--results-->
+            <div id="results">
+            <div id="result1">
+                <img src="images/pizzahut.webp" class="img-rounded" alt="pizza">
+                <span>Pizza Hut</span>
+                <br>
+                <p>Kothawada, Warangal</p><br>
+                <p>Cuisine:  Pizza</p><br>
+                <p>Cost for two:  ₹200</p>
+            </div>
+            <div id="result2">
+                <img src="images/cakewala.webp" class="img-rounded" alt="cake">
+                <span>Cake Wala</span>
+                <br>
+                <p>Kothawada, Warangal</p><br>
+                <p>Cuisine:  Cake</p><br>
+                <p>Cost for two:  ₹200</p>
+            </div>
+        </div>
+        <footer id="footer">
+            <p id="footText">&copy; Syed Saniya Samreen Faizi</p>
+            <hr/>
+            <div class="footDiv">
+                <p>Contact Us</p>
+                <p>About Us</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="https://i.ibb.co/dtzG625/facebook.png" alt="facebook" class="slogo"/>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://i.ibb.co/19H5LvT/insta.png" alt="instagram" class="slogo"/>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="youtube" class="slogo"/>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
